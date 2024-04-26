@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="fav-icons/favicon-32x32.png"/> 
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@100;200;300;400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo-and-nav">
+      <a href="index.html" class="logo"><img src="fav-icons/logo.svg" alt="Logo (Loopstudios)"/></a>
+      <nav class="desktop-menu">
+        <ul class="nav-list">
+          <li><a href="#" class="is-on-page">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </nav>
+      <img src="fav-icons/icon-hamburger.svg" alt="Open menu icon" class="open-menu-icon"/>
+      <nav class="mobile-menu">
+        <div class="logo-and-close-icon">
+          <a href="index.html" class="logo"><img src="fav-icons/logo.svg" alt="Logo (Loopstudios)"/></a>
+          <img src="fav-icons/icon-close.svg" alt="Close menu icon" class="close-menu-icon"/>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#" class="is-on-page">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1 class="header-title">Immersive experiences that deliver</h1>
+  </header>
+
+  <main>
+    <section id="about-us">
+        <picture class="img-man-with-vr-glasses">
+          <source media="(max-width: 1110px)" srcset="mobile-images/image-interactive.jpg">
+          <img src="desktop-images/image-interactive.jpg" alt="Man with VR glasses"/>
+        </picture>
+        <div class="about-us-text">
+          <h2>The leader in <br/>interactive VR</h2>
+          <p>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+      </div>
+    </section>
+    <section id="our-creations">
+      <div class="our-creations-header">
+        <h2>Our creations</h2>
+        <a>See All</a>
+      </div>
+      <ul class="our-creations-list">
+        <li id="deep-earth" class="our-creations-li"><a>Deep<br/>earth</a></li>
+        <li id="nigth-arcade" class="our-creations-li"><a>Night<br/>arcade</a></li>
+        <li id="soccer-team-vr" class="our-creations-li"><a>Soccer<br/>team VR</a></li>
+        <li id="the-grid" class="our-creations-li"><a>The<br/>grid</a></li>
+        <li id="from-up-above-vr" class="our-creations-li"><a>From up<br/>above VR</a></li>
+        <li id="pocket-borealis" class="our-creations-li"><a>Pocket<br/>borealis</a></li>
+        <li id="the-curiosity" class="our-creations-li"><a>The<br/>curiosity</a></li>
+        <li id="make-it-fisheye" class="our-creations-li"><a>Make it<br/>fisheye</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <nav class="footer-menu">
+      <a href="index.html"><img src="fav-icons/logo.svg" alt="Logo (loopstudios)"/></a>
+      <ul>
+        <li><a class="is-on-page">About</a></li>
+        <li><a>Careers</a></li>
+        <li><a>Events</a></li>
+        <li><a>Products</a></li>
+        <li><a>Support</a></li>
+      </ul>
+    </nav>
+    <div class="social-media-and-copyright">
+      <div class="social-media-links">
+        <a href="https://facebook.com"><img src="fav-icons/icon-facebook.svg"/></a>
+        <a href="https://twitter.com/home"><img src="fav-icons/icon-twitter.svg"/></a>
+        <a href="https://pinterest.com"><img src="fav-icons/icon-pinterest.svg"/></a>
+        <a href="https://instagram.com"><img src="fav-icons/icon-instagram.svg"/></a>
+      </div>
+      <p>© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. &nbsp;<span>Coded by <a href="https://github.com/matheusoliveirajc" class="dev-link">Matheus de Oliveira</a></span>.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
