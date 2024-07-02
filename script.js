@@ -5,15 +5,15 @@ const menu = document.querySelector('.mobile-menu');
 function mobileMenu(){
     document.body.classList.toggle('blockScroll');
     menu.classList.toggle('openMenu');
-    document.addEventListener('click', function(event){
-        let isClickIcon = openIcon.contains(event.target);
-        let isClickMenu = menu.contains(event.target);
-        if(!isClickIcon && !isClickMenu){
-            document.body.classList.remove('blockScroll');
-            menu.classList.remove('openMenu');
-        }
-    });
-}
+    }
+document.addEventListener('click', function(event){
+    let isClickIcon = openIcon.contains(event.target);
+    let isClickMenu = menu.contains(event.target);
+    if(!isClickIcon && !isClickMenu){
+        document.body.classList.remove('blockScroll');
+        menu.classList.remove('openMenu');
+    }
+});
 /*Our creations list background*/
 const our_creations_li = document.querySelectorAll('.our-creations-li');
 var background_list = ['image-deep-earth.jpg','image-night-arcade.jpg','image-soccer-team.jpg','image-grid.jpg','image-from-above.jpg','image-pocket-borealis.jpg','image-curiosity.jpg','image-fisheye.jpg'];
